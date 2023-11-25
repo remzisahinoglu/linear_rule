@@ -1,0 +1,20 @@
+/*
+yazan: remzi þahinoðlu
+tarih: 08.08.2016
+board: arduino nano
+
+bu program analog pine baðlý linear cetvelin deðeri okuyup serialdan yazar
+
+kalibrasyon için ilk önce boþda iken 2.pine baðlý olan  butona(yukardaki) 
+bir sn boyunca basýlý tut ekranda 0 yazar, sonra linear cetveli 10mm ye 
+mastar veya kumpas ile ayarlayýp 3.pine baðlý olan butona(aþaðýdaki) bir sn 
+süre basýlý tutup ekranda 10000 deðerini gördüðünde kalibre edilmiþtir.
+
+linear cetvel kablo baðlantýsý
+
+1       : kahve (GND)
+2       : beyaz (A0)
+3       : sarý (+5V)
+toprak  : yeþil (GND)
+
+*/
